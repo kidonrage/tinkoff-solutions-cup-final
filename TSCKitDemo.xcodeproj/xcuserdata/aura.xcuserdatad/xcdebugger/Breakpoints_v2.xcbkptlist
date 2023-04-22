@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8ED52B65-A2EC-4F24-BB43-F5571BD1E473"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF598C1C-C952-44D9-9EA6-908C63556C22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TSCKit/Sources/TSCKit/Components/TSCCardHeaderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "didChangeTrailingAccessoryView(oldValue:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AF598C1C-C952-44D9-9EA6-908C63556C22 - 78545e1619a7fc62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TSCKit.TSCCardHeaderView.didChangeTrailingAccessoryView(oldValue: Swift.Optional&lt;__C.UIView&gt;) -&gt; ()"
+                  moduleName = "TSCKitDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aura/Desktop/TSCKitDemo/TSCKit/Sources/TSCKit/Components/TSCCardHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "AF598C1C-C952-44D9-9EA6-908C63556C22 - 78545e1619a7fc62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TSCKit.TSCCardHeaderView.didChangeTrailingAccessoryView(oldValue: Swift.Optional&lt;__C.UIView&gt;) -&gt; ()"
+                  moduleName = "TSCKitDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aura/Desktop/TSCKitDemo/TSCKit/Sources/TSCKit/Components/TSCCardHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
