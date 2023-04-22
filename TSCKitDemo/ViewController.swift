@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         let stackView = UIStackView(arrangedSubviews: [])
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
-        stackView.distribution = .equalCentering
+        stackView.distribution = .fill
         stackView.spacing = 16
         return stackView
     }()
@@ -75,15 +75,19 @@ class ViewController: UIViewController {
         
         let list = TSCList()
         list.configureUI(dataSource: TSCListDataSource(items: [
+            .init(header: "Header", subheader: "Description"),
+            .init(header: "Header", subheader: "Description"),
+            .init(header: "Header", subheader: "Description"),
+            .init(header: "Header", subheader: "Description"),
             .init(header: "Header", subheader: "Description")
         ]))
         contentView.addArrangedSubview(
             createCard(
                 headerText: "Header",
-                description: "Description",
+                description: nil,
                 leftHeaderAccessory: nil,
-                rightHeaderAccessory: nil,
-                footer: TSCList()
+                rightHeaderAccessory: createCloseButton(),
+                footer: list
             )
         )
     }

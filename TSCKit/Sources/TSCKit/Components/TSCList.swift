@@ -60,6 +60,7 @@ public final class TSCList: UIView {
             let headerView = TSCCardHeaderView()
             headerView.headerText = item.header
             headerView.descriptionText = item.subheader
+            headerView.leadingAccessoryView = createAvatarView()
             contentStackView.addArrangedSubview(headerView)
         }
     }
@@ -73,5 +74,11 @@ public final class TSCList: UIView {
             contentStackView.bottomAnchor.constraint(equalTo: bottomAnchor),
             contentStackView.leadingAnchor.constraint(equalTo: leadingAnchor),
         ])
+    }
+    
+    private func createAvatarView() -> UIImageView {
+        let imageView = UIImageView(image: UIImage(named: "avatarPlaceholder"))
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        return imageView
     }
 }
