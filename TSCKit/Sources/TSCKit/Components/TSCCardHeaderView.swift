@@ -30,7 +30,7 @@ public final class TSCCardHeaderView: TSCView {
         stackView.setContentHuggingPriority(.defaultLow, for: .horizontal)
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
-        stackView.spacing = 8
+        stackView.spacing = 4
         return stackView
     }()
     private lazy var trailingAccessoryViewContainer: TSCView = {
