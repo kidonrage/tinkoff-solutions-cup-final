@@ -13,6 +13,7 @@ public final class TSCCardHeaderView: TSCView {
         let label = UILabel()
         label.setContentHuggingPriority(.defaultLow, for: .horizontal)
         label.setContentHuggingPriority(.defaultLow, for: .horizontal)
+        label.font = .boldSystemFont(ofSize: 20)
         return label
     }()
     private lazy var descriptionLabel: UILabel = {
